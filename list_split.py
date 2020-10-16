@@ -5,6 +5,7 @@ This program gets an input list and then splits it into several lists,
 all consisting of equal numbets.
 """
 
+
 # Get an input list
 source_list = []
 size = int(input("Number of elements in list: "))
