@@ -4,6 +4,7 @@
 This program returns the number going before and after the given one.
 """
 
+
 try:
     n = int(input())
     print(f'The next number for the number {n} is {n+1}.')

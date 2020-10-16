@@ -7,18 +7,18 @@ Program calculates whether both of the figures stand on
 squares of the same color.
 """
 
+
 coordinates = []
-for i in range(4):
+i = 0
+while i < 4:
     try:
-
-        #input coordinate
-        coordinate = int(input('Number between 1 and 8 inclusive: '))
+        coordinate = int(input('Print a number: '))
+        if coordinate in range(1, 9):
+            coordinates.append(coordinate)
+            i += 1
+        else:
+            print('Not valid number. Try again.')
     except ValueError:
-        print('Not a number')
-
-        #check if coordinate in range of 1 and 8 inclusive
-    if not (1 <= coordinate <= 8):
-        raise Exception('Not a number between 1 and 8 inclusive')
-    coordinates.append(coordinate)
+        print('Not a number.')
 
 print('YES') if (sum(coordinates) % 2 == 0) else print('NO')

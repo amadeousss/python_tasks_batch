@@ -7,6 +7,7 @@ Remainder is kept in the basket.
 Output: Amount, Remainder
 """
 
+
 try:
     children = int(input())
     apples = int(input())

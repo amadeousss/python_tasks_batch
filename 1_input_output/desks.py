@@ -9,6 +9,7 @@ Input: number of students in each of every class.
 Output: number of desks overall.
 """
 
+
 try:
     # Amount of children in each class
     kids1 = int(input())

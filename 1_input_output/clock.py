@@ -6,6 +6,7 @@ get correct amount of hours (from 0 to 23) passed
 and minutes (from 0 to 59).
 """
 
+
 try:
     total_minutes = int(input())
     hours = (n//60)%24

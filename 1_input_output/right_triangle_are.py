@@ -4,6 +4,7 @@
 This program return area of a right triangle, legs of which are inputted.
 """
 
+
 try:
     first_leg = int(input())
     second_leg = int(input())

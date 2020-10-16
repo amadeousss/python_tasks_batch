@@ -7,6 +7,7 @@ Given 3 numbers calculate how many of them are equal:
 0 - if each one is different
 """
 
+
 numbers = []
 i = 0
 while i < 3:

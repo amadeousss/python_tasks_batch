@@ -4,6 +4,7 @@
 This program determines sign of an inputted number
 """
 
+
 while True:
     try:
         number = int(input('Input a number: '))

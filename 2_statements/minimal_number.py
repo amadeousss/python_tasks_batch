@@ -5,6 +5,7 @@ This program prints out the least of two
 inputted numbers
 """
 
+
 try:
     first_number = int(input())
     second_number = int(input())

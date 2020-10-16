@@ -4,7 +4,8 @@
 Calculate whether the inputted year is a leap year.
 """
 
-#input the year
+
+# Input the year
 try:
     year = int(input())
 except ValueError:
