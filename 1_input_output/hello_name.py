@@ -1,6 +1,8 @@
 # -*- coding: utf-8 -*-
 
-"""This program greetes the user by his name, which is given in input."""
+"""
+This program greetes the user by his name, which is given in input.
+"""
 
 
 name = input()
