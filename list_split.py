@@ -15,15 +15,12 @@ for i in range(size):
 # Sort the list
 source_list.sort()
 
-# The algorithm, create new list in main list if current element is
-# not equal to the last one.
-result = []
-previous_element = ''
-index = -1
-for current_element in source_list:
-    if current_element != previous_element:
-        index += 1
+# The algorithm: create new sublist in main list if current element is
+# not equal to the last one in the last sublist.
+result = [[el]]
+for el in source_list[1:]:
+    if el != result[-1][-1]:
         result.append([])
-    result[index].append(current_element)
+    result[-1].append(el)
 
 print(result)
