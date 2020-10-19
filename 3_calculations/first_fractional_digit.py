@@ -1,0 +1,12 @@
+# -*- coding: utf-8 -*-
+
+"""
+This program print first digit of fractional part
+of a given number.
+"""
+
+try:
+    number = float(input())
+    print(int(number*10)%10)
+except ValueError:
+    print('Incorrect input')
