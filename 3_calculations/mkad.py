@@ -6,10 +6,13 @@ Return coordinate of the moving object
 by the given time and velocity.
 """
 
+
+LENGTH = 109
+
 try:
-    length = 7
     velocity = int(input('Velocity (km/h): '))
     time = int(input('Time (h): '))
-    print((velocity*time)%length)
 except ValueError:
     print('Incorrect input')
+
+print((velocity*time)%LENGTH)

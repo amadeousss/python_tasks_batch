@@ -7,6 +7,7 @@ of a given number.
 
 try:
     number = float(input())
-    print(int(number*10)%10)
 except ValueError:
     print('Incorrect input')
+
+print(int(number*10)%10)
