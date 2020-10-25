@@ -4,6 +4,7 @@
 Given number 'n', print following sum: '1! + 2! + 3! + ... + n!'
 """
 
+
 try:
     n = int(input('n: '))
 except ValuError:
