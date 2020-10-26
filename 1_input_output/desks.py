@@ -16,3 +16,4 @@ try:
     print(sum([-(kids//-2) for kids in kids_list]))
 except ValueError:
     print('Invalid input.')
+

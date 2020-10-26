@@ -17,3 +17,4 @@ try:
         print(second_number)
 except ValueError:
     print('Invalid input')
+

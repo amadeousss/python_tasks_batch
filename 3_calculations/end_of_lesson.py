@@ -20,3 +20,4 @@ if 1 <= number <= 10:
     print(f'{minutes//60}:{minutes%60}')
 else:
     print(f'{number} is not between 1 and 10!')
+

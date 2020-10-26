@@ -20,3 +20,4 @@ except ValueError:
     print('Input error')
 
 print(f'{dollars*amount + cents*amount//100}.{cents*amount%100}')
+

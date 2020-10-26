@@ -11,3 +11,4 @@ except ValueError:
     print('Incorrect input')
 
 print("".join(number[number.index('.')+1:]))
+

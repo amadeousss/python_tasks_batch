@@ -16,3 +16,4 @@ except ValueError:
     print('Incorrect input')
 
 print((velocity*time)%LENGTH)
+

@@ -11,3 +11,4 @@ except ValueError:
     print('Incorrect input')
 
 print(number % 10)
+

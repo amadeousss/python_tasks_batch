@@ -11,3 +11,4 @@ except ValueError:
     print('Not a number')
 
 print((number>0) - (number<0))
+

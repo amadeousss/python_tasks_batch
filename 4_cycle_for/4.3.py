@@ -17,3 +17,4 @@ except ValueError:
 # iterator becomes equal to B, so we need to make B smaller by 1 if it's odd.
 for i in range(A-(1-A%2), B-B%2, -2):
     print(i)
+

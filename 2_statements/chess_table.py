@@ -22,3 +22,4 @@ while i < 4:
         print('Not a number.')
 
 print('YES') if (sum(coordinates) % 2 == 0) else print('NO')
+

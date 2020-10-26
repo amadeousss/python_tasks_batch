@@ -9,3 +9,4 @@ try:
     print(sum([int(input()) for i in range(3)]))
 except ValueError:
     print('Invalid input.')
+

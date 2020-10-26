@@ -23,3 +23,4 @@ elif (len(set(numbers)) == 2):
     print(2)
 else:
     print(0)
+

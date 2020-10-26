@@ -14,3 +14,4 @@ try:
     print(hours, minutes)
 except ValueError:
     print('Invalid input.')
+

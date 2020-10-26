@@ -14,3 +14,4 @@ except ValueError:
 
 # double negative is made to ceil the division.
 print(-(-kilometres//velocity))
+

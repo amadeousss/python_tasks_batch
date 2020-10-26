@@ -16,3 +16,4 @@ except ValueError:
 # it represents step value of for loop,
 for i in range(a, b-1 + 2*int(a<b), -1 + 2*int(a<b)):
     print(i)
+
