@@ -17,10 +17,11 @@ source_list.sort()
 
 # The algorithm: create new sublist in main list if current element is
 # not equal to the last one in the last sublist.
-result = [[el]]
+result = [[source_list[0]]]
 for el in source_list[1:]:
     if el != result[-1][-1]:
         result.append([])
     result[-1].append(el)
 
 print(result)
+
